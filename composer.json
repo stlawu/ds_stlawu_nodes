@@ -18,32 +18,16 @@
     "asset-packagist": {
       "type": "composer",
       "url": "https://asset-packagist.org"
-    },
-    "ds_stlawu_date_formats": {
-      "type": "git",
-      "url": "https://github.com/cainaru/ds_stlawu_date_formats"
-    },
-    "ds_stlawu_media": {
-      "type": "git",
-      "url": "https://github.com/cainaru/ds_stlawu_media"
-    },
-    "ds_stlawu_paragraphs": {
-      "type": "git",
-      "url": "https://github.com/cainaru/ds_stlawu_paragraphs"
-    },
-    "ds_stlawu_text_formats": {
-      "type": "git",
-      "url": "https://github.com/cainaru/ds_stlawu_text_formats"
     }
   },
   "suggest": {
-    "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding."
+    "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding.",
+    "cainaru/ds_stlawu_date_formats": "Recommended for commonly used date formats.",
+    "cainaru/ds_stlawu_media": "Recommended for easy media.",
+    "cainaru/ds_stlawu_paragraphs": "Recommended for pre-packaged paragraph types.",
+    "cainaru/ds_stlawu_text_formats": "Recommended for pre-packaged text editors/formats."
   },
   "require": {
-    "cainaru/ds_stlawu_date_formats": "dev-master",
-    "cainaru/ds_stlawu_media": "dev-master",
-    "cainaru/ds_stlawu_paragraphs": "dev-master",
-    "cainaru/ds_stlawu_text_formats": "dev-master",
     "drupal/allowed_formats": "^1.1",
     "drupal/core": "~8",
     "drupal/features": "^3.8",
