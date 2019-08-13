@@ -1,0 +1,56 @@
+{
+  "name": "cainaru/ds_stlawu_nodes",
+  "type": "drupal-custom-module",
+  "description": "Field storage, shared config, and various content types for Digital Scholarship.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://github.com/cainaru/ds_stlawu_nodes",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "",
+    "source": ""
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    "asset-packagist": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    },
+    "ds_stlawu_date_formats": {
+      "type": "git",
+      "url": "https://github.com/cainaru/ds_stlawu_date_formats"
+    },
+    "ds_stlawu_media": {
+      "type": "git",
+      "url": "https://github.com/cainaru/ds_stlawu_media"
+    },
+    "ds_stlawu_paragraphs": {
+      "type": "git",
+      "url": "https://github.com/cainaru/ds_stlawu_paragraphs"
+    },
+    "ds_stlawu_text_formats": {
+      "type": "git",
+      "url": "https://github.com/cainaru/ds_stlawu_text_formats"
+    }
+  },
+  "suggest": {
+    "cainaru/ds_stlawu": "Recommended sub-theme with St.Lawrence University branding."
+  },
+  "require": {
+    "cainaru/ds_stlawu_date_formats": "dev-master",
+    "cainaru/ds_stlawu_media": "dev-master",
+    "cainaru/ds_stlawu_paragraphs": "dev-master",
+    "cainaru/ds_stlawu_text_formats": "dev-master",
+    "drupal/allowed_formats": "^1.1",
+    "drupal/core": "~8",
+    "drupal/features": "^3.8",
+    "drupal/field_group": "^3.0",
+    "drupal/metatag": "^1.9",
+    "drupal/pathauto": "^1.4",
+    "drupal/token": "^1.5",
+    "oomphinc/composer-installers-extender": "^1.1"
+  }
+}
