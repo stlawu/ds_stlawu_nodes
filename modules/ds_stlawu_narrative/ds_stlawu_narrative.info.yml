@@ -2,7 +2,7 @@ name: 'STLAWU Digital Scholarship: Narrative'
 type: module
 description: 'Snazzy narrative content type and fields.'
 core: 8.x
-package: 'Digital Scholarship'
+package: 'STLAWU Digital Scholarship'
 dependencies:
   - drupal:ckeditor
   - drupal:datetime

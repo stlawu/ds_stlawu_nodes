@@ -2,7 +2,7 @@ name: 'STLAWU Digital Scholarship: Article'
 type: module
 description: 'Snazzy article content type and fields.'
 core: 8.x
-package: 'Digital Scholarship'
+package: 'STLAWU Digital Scholarship'
 dependencies:
   - drupal:ckeditor
   - drupal:datetime
