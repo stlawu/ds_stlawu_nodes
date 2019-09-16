@@ -15,6 +15,7 @@ dependencies:
   - drupal:field
   - features:features
   - field_group:field_group
+  - maxlength:maxlength
   - drupal:media
   - drupal:media_library
   - metatag:metatag

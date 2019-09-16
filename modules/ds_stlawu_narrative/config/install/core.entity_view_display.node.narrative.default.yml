@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_display.comment.comment.default
     - field.field.node.narrative.comment
+    - field.field.node.narrative.field_last_updated
+    - field.field.node.narrative.field_release_date
     - field.field.node.narrative.field_sections
     - field.field.node.narrative.field_subtitle
     - field.field.node.narrative.field_tags
@@ -11,6 +13,7 @@ dependencies:
     - field.field.node.narrative.field_teaser_text
     - node.type.narrative
   module:
+    - datetime
     - comment
     - entity_reference_revisions
     - text
@@ -20,6 +23,11 @@ targetEntityType: node
 bundle: narrative
 mode: default
 content:
+  addtoany:
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   comment:
     weight: 110
     label: above
@@ -28,6 +36,24 @@ content:
       pager_id: 0
     third_party_settings: {  }
     type: comment_default
+    region: content
+  field_last_updated:
+    weight: 1
+    label: inline
+    settings:
+      timezone_override: ''
+      date_format: 'F d, Y'
+    third_party_settings: {  }
+    type: datetime_custom
+    region: content
+  field_release_date:
+    weight: -1
+    label: hidden
+    settings:
+      timezone_override: ''
+      date_format: 'F d, Y'
+    third_party_settings: {  }
+    type: datetime_custom
     region: content
   field_sections:
     type: entity_reference_revisions_entity_view
